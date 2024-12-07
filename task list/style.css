@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Bebas+Neue:regular);
+
+body {
+    
+    font-family: Bebas Neue;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    background-color: #800000;
+    color: #FFD700;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.title{
+    color: #FFD700;
+    display: flex;
+    justify-content: center;
+}
+.twos{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+}
+input {
+    border: 2px solid #FFD700;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 100px 10px 20px;
+    border-radius: 100px;
+    font-family: Bebas Neue;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+}
+input[type="text"]:focus {
+    outline: none;
+    border-color: #FFD700;
+}
+button {
+    position: relative;
+    right: 65px;
+    padding: 10px 30px;
+    border-radius: 90px;
+    background-color: #FFD700;
+    color: #800000;
+    border: 3px solid #FFD700;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Bebas Neue;
+}
+button:hover {
+    background-color: #800000;
+    color: #FFD700;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #800000;
+    color: #FFD700;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover {
+    background-color: #FFD700; /* Золотой фон при наведении */
+    color: #800000; /* Бордовый текст при наведении */
+}
